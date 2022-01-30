@@ -26,3 +26,7 @@ print(type(f))  #output -<class 'NoneType'>
 # 1a= 54 is invalid 
 #variable name can only start with alphabet and _ but can contain numbers after that
 #no spaces allowed
+
+
+#.format function
+print("{greet} there!".format(greet=a))   #outputs Hello there!
