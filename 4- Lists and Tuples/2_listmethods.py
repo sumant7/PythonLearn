@@ -8,6 +8,9 @@ print(b)   #outputs None
 #hence simple write a.sort()
 
 
+#len   returns length of list
+print(len(a))  #outputs 9
+
 
 #reverse methods reverses
 a.reverse()
