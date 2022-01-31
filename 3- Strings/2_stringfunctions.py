@@ -33,3 +33,11 @@ print(story.replace("Sumant", "Sumant Chaudhary"))  #replaces every occurance of
 # string1 = "Hello You"
 # string1= string1.replace("You", "Sumant")
 # print(string1)   outputs Hello Sumant
+
+
+
+
+#strip() removes spaces
+this = "     Harry is a good"
+print(this)   #outputs      Harry is a good
+print(this.strip())   #outputs Harry is a good
