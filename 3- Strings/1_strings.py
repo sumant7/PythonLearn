@@ -50,3 +50,18 @@ print(name[0:5:2])   #output is Smn  NOT Suman
 
 print(name[0::3]) #output is Sa ahy
 #it skipped 2 characters after printing 1 character each time
+
+
+
+
+
+
+
+
+
+
+#fstrings
+num=5
+i=2
+print(f"{num}X{i}={num*i}")
+#outputs 5X2=10
