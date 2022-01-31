@@ -2,8 +2,8 @@
 
 c= 69
 if(c==69):     #relational operator
-    print("Nice")
-#output is Nice
+    print("hello")
+#output is hello
 
 if(c>50 and c<60):  #logical operator     
     print("Old!")   

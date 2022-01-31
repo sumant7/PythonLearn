@@ -1,5 +1,5 @@
 a="Hello"   #string
-b= 69#(Nice)  an integer
+b= 69#  an integer
 c= 34.34  #decimal or floating point number.
 d= '''triple quote is used when "(double quote) or '(single quote) is a part of string
 or a newline is needed'''

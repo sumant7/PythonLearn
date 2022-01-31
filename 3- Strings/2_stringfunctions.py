@@ -9,6 +9,7 @@ print(len(story))   #ouputs 63
 #endswith tells you if the string ends with given string/character or not
 print(story.endswith("Y"))   #output false
 print(story.endswith("smart"))   #output true
+#similarly there is startswith
 
 
 #count tells you the count of a character/word/string in a string
