@@ -1,0 +1,20 @@
+RAM is volatile Memory
+HDD/SSD is non volatile Memory
+
+
+Types of files:
+1. Text Files(.txt,.c,.py etc)
+2. Binary Files (.jpg , .dat etc)
+
+Using Python we can read,update and delete files.These functions are built in
+
+
+# We have to open the file before doing anything,
+# open('filename','mode')      mode signifies what to to do with file
+# default mode is r=read if not specified by user
+ Other Modes
+# w= writing
+# a= appending
+# += updating
+# rb = open in binary mode
+# rt= open in text mode   (this is same as just 'r')
