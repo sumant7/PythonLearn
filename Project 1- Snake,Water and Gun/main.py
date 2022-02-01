@@ -11,19 +11,19 @@ def game(comp,you):
     if comp==you:
         return None
     elif comp=='s':
-        if you=='w':
+        if you=='w':   # snake drinks water
             return False
-        if you=='g':
+        if you=='g':   # gun kills snake
             return True
     elif comp=='w':
-        if you=='g':
+        if you=='g':     # gun sinks in water
             return False
-        if you=='s':
+        if you=='s':       # snake drinks water
             return True
     elif comp=='g':
-        if you=='s':
+        if you=='s':    # gun kills snake
             return False
-        if you=='w':
+        if you=='w':     # gun sinks in water
             return True
         
 
